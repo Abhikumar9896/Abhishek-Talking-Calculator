@@ -4,26 +4,34 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #e9e0e0;
+    background-color: #f7f7f7;
     font-family: Arial, sans-serif;
 }
 
-.calculator {
-    width: 300px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 30px;
-    text-align: center; /* Center the content within the calculator */
+.container {
+    text-align: center;
 }
 
+.heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.calculator {
+    width: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
 
 #display {
     width: 100%;
     height: 60px;
-    font-size: 30px;
+    font-size: 28px;
     text-align: right;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border: none;
     border-bottom: 2px solid #333;
     outline: none;
@@ -47,7 +55,6 @@ button {
     transition: background-color 0.2s;
 }
 
-/* Add specific styles for operator buttons */
 .operator {
     font-size: 32px;
     background-color: #f5923b;
@@ -67,10 +74,6 @@ button:hover {
     background-color: #ff9933;
 }
 
-
-
 button:active {
     transform: scale(0.95);
 }
-
-
